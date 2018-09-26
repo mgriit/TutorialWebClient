@@ -1,0 +1,5 @@
+<input type="text" name="title"/>
+<input type="text" mane="summery"/>
+
+<app-tiny-editor [elementId]="'my-editor'" (onEditorContentChange)="onBodyTextEditorKeyUp($event)"> </app-tiny-editor>
+<button type="button" (click)="onSubmit()">Submit</button>
